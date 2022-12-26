@@ -25,11 +25,12 @@ It is also used as a playground for me to help my mentees contribute to open sou
 - In-game audio effects
 - Responsive design for various devices
 
-## Running the game locally
+## Running the game locally (will update this later to use Kubernetes)
 1. Clone the repository: `git clone https://github.com:ObaidUr-Rahmaan/lexicon.git`
-2. Install dependencies: `pnpm install`
-3. Start the server: `pnpm start`
-4. Open the client in your browser: `http://127.0.0.1:5173`
+2. Build the Docker image: `docker build -t lexicon .`
+3. Run the Docker container for the backend: `docker run -p 3000:3000 lexicon`
+4. Run the Docker container for the frontend: `docker run -p 5173:5173 lexicon`
+5. Open the client in your browser: `http://127.0.0.1:5173`
 
 ## Deployment
 The game is deployed using Docker and Kubernetes on AWS, with automated deployments using Github Actions.
