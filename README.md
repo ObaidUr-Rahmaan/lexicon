@@ -33,8 +33,8 @@ It is also used as a playground for me to help my mentees contribute to open sou
 
 ## Deployment
 The game is deployed using Docker and Kubernetes on AWS, with automated deployments using Github Actions. To deploy the game to production, follow these steps:
-1. Build the Docker image: `docker build -t wordgame .`
-2. Push the image to a container registry: `docker push wordgame`
+1. Build the Docker image: `docker build -t lexicon .`
+2. Push the image to a container registry: `docker push lexicon`
 3. Update the deployment on Kubernetes: `kubectl apply -f deployment.yaml`
 
 ## Contributing
