@@ -32,10 +32,7 @@ It is also used as a playground for me to help my mentees contribute to open sou
 4. Open the client in your browser: `http://127.0.0.1:5173`
 
 ## Deployment
-The game is deployed using Docker and Kubernetes on AWS, with automated deployments using Github Actions. To deploy the game to production, follow these steps:
-1. Build the Docker image: `docker build -t lexicon .`
-2. Push the image to a container registry: `docker push lexicon`
-3. Update the deployment on Kubernetes: `kubectl apply -f deployment.yaml`
+The game is deployed using Docker and Kubernetes on AWS, with automated deployments using Github Actions.
 
 ## Contributing
 We welcome contributions to Lexicon. If you have an idea for a new feature or have found a bug, please open an issue on the repository.
