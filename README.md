@@ -4,16 +4,20 @@ Welcome to Lexicon, a multiplayer online word game built to help consolidate my 
 It is also used as a playground for me to help my mentees contribute to open source projects, while also learning the ropes of system design and development.
 
 ## Technologies Used
+
+### Frontend
 - VueJS
 - Vite build tool
 - ChakraUI
+
+### Backend
 - NodeJS
 - ExpressJS
-- SocketIO library
-- HowlerJS for in-game audio
+- SocketIO
+- HowlerJS
 - Docker
 - Kubernetes
-- AWS
+- AWS EKS
 
 ## Features
 - Real-time multiplayer gameplay
