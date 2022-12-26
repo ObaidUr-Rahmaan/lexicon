@@ -38,4 +38,4 @@ The game is deployed using Docker and Kubernetes on AWS, with automated deployme
 We welcome contributions to Lexicon. If you have an idea for a new feature or have found a bug, please open an issue on the repository.
 
 ## License
-WordGame is licensed under the [MIT License](LICENSE).
+Lexico is licensed under the [MIT License](LICENSE).
