@@ -1,5 +1,7 @@
-# WordGame
-Welcome to WordGame, a multiplayer online word game built to help consolidate knowledge on system design and large-scale systems development for production.
+# Lexicon
+Welcome to Lexicon, a multiplayer online word game built to help consolidate my knowledge on system design and large-scale systems development for production.
+
+It is also used as a playground for me to help my mentees contribute to open source projects, while also learning the ropes of system design and development.
 
 ## Technologies Used
 - VueJS
