@@ -22,7 +22,7 @@ Welcome to WordGame, a multiplayer online word game built to help consolidate kn
 1. Clone the repository: `git clone https://github.com/[USERNAME]/WordGame.git`
 2. Install dependencies: `pnpm install`
 3. Start the server: `pnpm start`
-4. Open the client in your browser: `http://localhost:3000`
+4. Open the client in your browser: `http://127.0.0.1:5173`
 
 ## Deployment
 The game is deployed using Docker and Kubernetes on AWS, with automated deployments using Github Actions. To deploy the game to production, follow these steps:
