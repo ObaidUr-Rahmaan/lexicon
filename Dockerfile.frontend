@@ -1,0 +1,18 @@
+FROM node:latest
+
+ENV PNPM_GLOBAL_BIN_PATH /usr/local/bin
+
+RUN npm install -g pnpm
+
+RUN pnpm install vite@4.0.0
+
+RUN mkdir -p /app
+WORKDIR /app
+
+COPY frontend/package.json /app/package.json
+RUN pnpm install
+
+COPY frontend /app
+
+EXPOSE 5173
+CMD ["pnpm", "run", "serve", "--host", "127.0.0.1", "--port", "5173"]
